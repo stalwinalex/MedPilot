@@ -1,0 +1,33 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+generated_pdfs/
+backend/generated_pdfs/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
